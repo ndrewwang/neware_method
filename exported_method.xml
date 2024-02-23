@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<config version="15" type="Step File">
+		<Head_Info>
+			<Operate Value="65"></Operate>
+			<Scale Value="1000"></Scale>
+			<Start_Step Value="1"></Start_Step>
+			<Creator Value="AW"></Creator>
+			<PN Value=""></PN>
+			<Remark Value="This is a test method, written with python."></Remark>
+			<SCQ Is_Select="0" Value="0"></SCQ>
+		</Head_Info>
+		<Step_Info Num="7">
+			<Step1 Step_ID="1" Step_Type="4">
+				<Record>
+					<Main>
+						<Time Is_Select="1" Value="2000.0"></Time>
+						<Volt Is_Select="0" Value="0"></Volt>
+						<Curr Is_Select="0" Value="0"></Curr>
+					</Main>
+					<Aux></Aux>
+				</Record>
+				<Limit>
+					<Main>
+						<Curr Is_Select="0" Value="0"></Curr>
+						<Volt Is_Select="0" Value="0"></Volt>
+						<Time Is_Select="1" Value="3600000.0"></Time>
+						<Cap Is_Select="0" Value="0"></Cap>
+						<Pow Is_Select="0" Value="0"></Pow>
+						<RI Is_Select="0" Value="0"></RI>
+						<Stop_Curr Is_Select="0" Value="0"></Stop_Curr>
+						<Stop_Volt Is_Select="0" Value="0"></Stop_Volt>
+						<DV Is_Select="0" Value="0"></DV>
+					</Main>
+					<Aux></Aux>
+					<Other>
+						<Start_Step Is_Select="0" Value="0"></Start_Step>
+						<Cycle_Count Is_Select="0" Value="0"></Cycle_Count>
+						<Param1 Is_Select="0" Value="0"></Param1>
+					</Other>
+				</Limit>
+				<Protect>
+					<Main>
+						<Volt>
+							<Upper Is_Select="1" Value="50000.0"></Upper>
+							<Lower Is_Select="1" Value="0.0"></Lower>
+						</Volt>
+						<Curr>
+							<Upper Is_Select="0" Value="0"></Upper>
+							<Lower Is_Select="0" Value="0"></Lower>
+						</Curr>
+						<Delay_Time Is_Select="0" Value="0"></Delay_Time>
+						<Bgfs>
+							<Time Is_Select="0" Value="0"></Time>
+							<Volt Is_Select="0" Value="0"></Volt>
+						</Bgfs>
+						<Plat_Volt1 Is_Select="0" Value="0"></Plat_Volt1>
+						<Plat_Volt2 Is_Select="0" Value="0"></Plat_Volt2>
+						<Plat_Volt3 Is_Select="0" Value="0"></Plat_Volt3>
+						<Step_Delay_Time Is_Select="0" Value="0"></Step_Delay_Time>
+						<Continue_Delay_Time Is_Select="0" Value="0"></Continue_Delay_Time>
+						<MainAux_Delay_Time Is_Select="0" Value="0"></MainAux_Delay_Time>
+					</Main>
+					<Aux></Aux>
+				</Protect>
+				<Sim>
+					<Sim_Mode Value="0"></Sim_Mode>
+					<Sim_TimeUnit Value="0"></Sim_TimeUnit>
+					<Sim_ValueUnit Value="0"></Sim_ValueUnit>
+					<Sim_TimeColume Value="0"></Sim_TimeColume>
+					<Sim_ValueColume Value="0"></Sim_ValueColume>
+					<Sim_Mult Value="0"></Sim_Mult>
+					<Sim_StartRow Value="0"></Sim_StartRow>
+					<Sim_EndRow Value="0"></Sim_EndRow>
+					<Sim_FilePath Value=""></Sim_FilePath>
+				</Sim>
+				<Pulse>
+					<Pulse_Mode Value="0"></Pulse_Mode>
+					<Pulse_VolHi Value="0"></Pulse_VolHi>
+					<Pulse_VolLo Value="0"></Pulse_VolLo>
+					<Pulse_StepArg Value="0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"></Pulse_StepArg>
+				</Pulse>
+				<ControlStepValue ControlType="0"></ControlStepValue>
+				<ATL_Prot>
+					<Volt>
+						<IncRate Is_Select="0" Value="0"></IncRate>
+						<RedRate Is_Select="0" Value="0"></RedRate>
+					</Volt>
+				</ATL_Prot>
+				<LimitCondition>
+					<LimitC1 Is_Select="0" Value="0"></LimitC1>
+					<LimitC2 Is_Select="0" Value="0"></LimitC2>
+					<LimitValueC1 Is_Select="0" Value="0"></LimitValueC1>
+					<LimitValueC2 Is_Select="0" Value="0"></LimitValueC2>
+				</LimitCondition>
+			</Step1>
+			<Step2 Step_ID="2" Step_Type="7">
+				<Record>
+					<Main>
+						<Time Is_Select="1" Value="2000.0"></Time>
+						<Volt Is_Select="0" Value="0"></Volt>
+						<Curr Is_Select="0" Value="0"></Curr>
+					</Main>
+					<Aux></Aux>
+				</Record>
+				<Limit>
+					<Main>
+						<Curr Is_Select="1" Value="1000.0"></Curr>
+						<Volt Is_Select="1" Value="40000.0"></Volt>
+						<Time Is_Select="0" Value="0"></Time>
+						<Cap Is_Select="0" Value="0"></Cap>
+						<Pow Is_Select="0" Value="0"></Pow>
+						<RI Is_Select="0" Value="0"></RI>
+						<Stop_Curr Is_Select="1" Value="100.0"></Stop_Curr>
+						<Stop_Volt Is_Select="0" Value="0"></Stop_Volt>
+						<DV Is_Select="0" Value="0"></DV>
+					</Main>
+					<Aux></Aux>
+					<Other>
+						<Start_Step Is_Select="0" Value="0"></Start_Step>
+						<Cycle_Count Is_Select="0" Value="0"></Cycle_Count>
+						<Param1 Is_Select="0" Value="0"></Param1>
+					</Other>
+				</Limit>
+				<Protect>
+					<Main>
+						<Volt>
+							<Upper Is_Select="1" Value="50000.0"></Upper>
+							<Lower Is_Select="1" Value="0.0"></Lower>
+						</Volt>
+						<Curr>
+							<Upper Is_Select="0" Value="0"></Upper>
+							<Lower Is_Select="0" Value="0"></Lower>
+						</Curr>
+						<Delay_Time Is_Select="0" Value="0"></Delay_Time>
+						<Bgfs>
+							<Time Is_Select="0" Value="0"></Time>
+							<Volt Is_Select="0" Value="0"></Volt>
+						</Bgfs>
+						<Plat_Volt1 Is_Select="0" Value="0"></Plat_Volt1>
+						<Plat_Volt2 Is_Select="0" Value="0"></Plat_Volt2>
+						<Plat_Volt3 Is_Select="0" Value="0"></Plat_Volt3>
+						<Step_Delay_Time Is_Select="0" Value="0"></Step_Delay_Time>
+						<Continue_Delay_Time Is_Select="0" Value="0"></Continue_Delay_Time>
+						<MainAux_Delay_Time Is_Select="0" Value="0"></MainAux_Delay_Time>
+					</Main>
+					<Aux></Aux>
+				</Protect>
+				<Sim>
+					<Sim_Mode Value="0"></Sim_Mode>
+					<Sim_TimeUnit Value="0"></Sim_TimeUnit>
+					<Sim_ValueUnit Value="0"></Sim_ValueUnit>
+					<Sim_TimeColume Value="0"></Sim_TimeColume>
+					<Sim_ValueColume Value="0"></Sim_ValueColume>
+					<Sim_Mult Value="0"></Sim_Mult>
+					<Sim_StartRow Value="0"></Sim_StartRow>
+					<Sim_EndRow Value="0"></Sim_EndRow>
+					<Sim_FilePath Value=""></Sim_FilePath>
+				</Sim>
+				<Pulse>
+					<Pulse_Mode Value="0"></Pulse_Mode>
+					<Pulse_VolHi Value="0"></Pulse_VolHi>
+					<Pulse_VolLo Value="0"></Pulse_VolLo>
+					<Pulse_StepArg Value="0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"></Pulse_StepArg>
+				</Pulse>
+				<ControlStepValue ControlType="0"></ControlStepValue>
+				<ATL_Prot>
+					<Volt>
+						<IncRate Is_Select="0" Value="0"></IncRate>
+						<RedRate Is_Select="0" Value="0"></RedRate>
+					</Volt>
+				</ATL_Prot>
+				<LimitCondition>
+					<LimitC1 Is_Select="0" Value="0"></LimitC1>
+					<LimitC2 Is_Select="0" Value="0"></LimitC2>
+					<LimitValueC1 Is_Select="0" Value="0"></LimitValueC1>
+					<LimitValueC2 Is_Select="0" Value="0"></LimitValueC2>
+				</LimitCondition>
+			</Step2>
+			<Step3 Step_ID="3" Step_Type="4">
+				<Record>
+					<Main>
+						<Time Is_Select="1" Value="2000.0"></Time>
+						<Volt Is_Select="0" Value="0"></Volt>
+						<Curr Is_Select="0" Value="0"></Curr>
+					</Main>
+					<Aux></Aux>
+				</Record>
+				<Limit>
+					<Main>
+						<Curr Is_Select="0" Value="0"></Curr>
+						<Volt Is_Select="0" Value="0"></Volt>
+						<Time Is_Select="1" Value="60000.0"></Time>
+						<Cap Is_Select="0" Value="0"></Cap>
+						<Pow Is_Select="0" Value="0"></Pow>
+						<RI Is_Select="0" Value="0"></RI>
+						<Stop_Curr Is_Select="0" Value="0"></Stop_Curr>
+						<Stop_Volt Is_Select="0" Value="0"></Stop_Volt>
+						<DV Is_Select="0" Value="0"></DV>
+					</Main>
+					<Aux></Aux>
+					<Other>
+						<Start_Step Is_Select="0" Value="0"></Start_Step>
+						<Cycle_Count Is_Select="0" Value="0"></Cycle_Count>
+						<Param1 Is_Select="0" Value="0"></Param1>
+					</Other>
+				</Limit>
+				<Protect>
+					<Main>
+						<Volt>
+							<Upper Is_Select="1" Value="50000.0"></Upper>
+							<Lower Is_Select="1" Value="0.0"></Lower>
+						</Volt>
+						<Curr>
+							<Upper Is_Select="0" Value="0"></Upper>
+							<Lower Is_Select="0" Value="0"></Lower>
+						</Curr>
+						<Delay_Time Is_Select="0" Value="0"></Delay_Time>
+						<Bgfs>
+							<Time Is_Select="0" Value="0"></Time>
+							<Volt Is_Select="0" Value="0"></Volt>
+						</Bgfs>
+						<Plat_Volt1 Is_Select="0" Value="0"></Plat_Volt1>
+						<Plat_Volt2 Is_Select="0" Value="0"></Plat_Volt2>
+						<Plat_Volt3 Is_Select="0" Value="0"></Plat_Volt3>
+						<Step_Delay_Time Is_Select="0" Value="0"></Step_Delay_Time>
+						<Continue_Delay_Time Is_Select="0" Value="0"></Continue_Delay_Time>
+						<MainAux_Delay_Time Is_Select="0" Value="0"></MainAux_Delay_Time>
+					</Main>
+					<Aux></Aux>
+				</Protect>
+				<Sim>
+					<Sim_Mode Value="0"></Sim_Mode>
+					<Sim_TimeUnit Value="0"></Sim_TimeUnit>
+					<Sim_ValueUnit Value="0"></Sim_ValueUnit>
+					<Sim_TimeColume Value="0"></Sim_TimeColume>
+					<Sim_ValueColume Value="0"></Sim_ValueColume>
+					<Sim_Mult Value="0"></Sim_Mult>
+					<Sim_StartRow Value="0"></Sim_StartRow>
+					<Sim_EndRow Value="0"></Sim_EndRow>
+					<Sim_FilePath Value=""></Sim_FilePath>
+				</Sim>
+				<Pulse>
+					<Pulse_Mode Value="0"></Pulse_Mode>
+					<Pulse_VolHi Value="0"></Pulse_VolHi>
+					<Pulse_VolLo Value="0"></Pulse_VolLo>
+					<Pulse_StepArg Value="0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"></Pulse_StepArg>
+				</Pulse>
+				<ControlStepValue ControlType="0"></ControlStepValue>
+				<ATL_Prot>
+					<Volt>
+						<IncRate Is_Select="0" Value="0"></IncRate>
+						<RedRate Is_Select="0" Value="0"></RedRate>
+					</Volt>
+				</ATL_Prot>
+				<LimitCondition>
+					<LimitC1 Is_Select="0" Value="0"></LimitC1>
+					<LimitC2 Is_Select="0" Value="0"></LimitC2>
+					<LimitValueC1 Is_Select="0" Value="0"></LimitValueC1>
+					<LimitValueC2 Is_Select="0" Value="0"></LimitValueC2>
+				</LimitCondition>
+			</Step3>
+			<Step4 Step_ID="4" Step_Type="2">
+				<Record>
+					<Main>
+						<Time Is_Select="1" Value="2000.0"></Time>
+						<Volt Is_Select="0" Value="0"></Volt>
+						<Curr Is_Select="0" Value="0"></Curr>
+					</Main>
+					<Aux></Aux>
+				</Record>
+				<Limit>
+					<Main>
+						<Curr Is_Select="1" Value="1000.0"></Curr>
+						<Volt Is_Select="0" Value="0"></Volt>
+						<Time Is_Select="0" Value="0"></Time>
+						<Cap Is_Select="0" Value="0"></Cap>
+						<Pow Is_Select="0" Value="0"></Pow>
+						<RI Is_Select="0" Value="0"></RI>
+						<Stop_Curr Is_Select="0" Value="0"></Stop_Curr>
+						<Stop_Volt Is_Select="1" Value="20000.0"></Stop_Volt>
+						<DV Is_Select="0" Value="0"></DV>
+					</Main>
+					<Aux></Aux>
+					<Other>
+						<Start_Step Is_Select="0" Value="0"></Start_Step>
+						<Cycle_Count Is_Select="0" Value="0"></Cycle_Count>
+						<Param1 Is_Select="0" Value="0"></Param1>
+					</Other>
+				</Limit>
+				<Protect>
+					<Main>
+						<Volt>
+							<Upper Is_Select="1" Value="50000.0"></Upper>
+							<Lower Is_Select="1" Value="0.0"></Lower>
+						</Volt>
+						<Curr>
+							<Upper Is_Select="0" Value="0"></Upper>
+							<Lower Is_Select="0" Value="0"></Lower>
+						</Curr>
+						<Delay_Time Is_Select="0" Value="0"></Delay_Time>
+						<Bgfs>
+							<Time Is_Select="0" Value="0"></Time>
+							<Volt Is_Select="0" Value="0"></Volt>
+						</Bgfs>
+						<Plat_Volt1 Is_Select="0" Value="0"></Plat_Volt1>
+						<Plat_Volt2 Is_Select="0" Value="0"></Plat_Volt2>
+						<Plat_Volt3 Is_Select="0" Value="0"></Plat_Volt3>
+						<Step_Delay_Time Is_Select="0" Value="0"></Step_Delay_Time>
+						<Continue_Delay_Time Is_Select="0" Value="0"></Continue_Delay_Time>
+						<MainAux_Delay_Time Is_Select="0" Value="0"></MainAux_Delay_Time>
+					</Main>
+					<Aux></Aux>
+				</Protect>
+				<Sim>
+					<Sim_Mode Value="0"></Sim_Mode>
+					<Sim_TimeUnit Value="0"></Sim_TimeUnit>
+					<Sim_ValueUnit Value="0"></Sim_ValueUnit>
+					<Sim_TimeColume Value="0"></Sim_TimeColume>
+					<Sim_ValueColume Value="0"></Sim_ValueColume>
+					<Sim_Mult Value="0"></Sim_Mult>
+					<Sim_StartRow Value="0"></Sim_StartRow>
+					<Sim_EndRow Value="0"></Sim_EndRow>
+					<Sim_FilePath Value=""></Sim_FilePath>
+				</Sim>
+				<Pulse>
+					<Pulse_Mode Value="0"></Pulse_Mode>
+					<Pulse_VolHi Value="0"></Pulse_VolHi>
+					<Pulse_VolLo Value="0"></Pulse_VolLo>
+					<Pulse_StepArg Value="0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"></Pulse_StepArg>
+				</Pulse>
+				<ControlStepValue ControlType="0"></ControlStepValue>
+				<ATL_Prot>
+					<Volt>
+						<IncRate Is_Select="0" Value="0"></IncRate>
+						<RedRate Is_Select="0" Value="0"></RedRate>
+					</Volt>
+				</ATL_Prot>
+				<LimitCondition>
+					<LimitC1 Is_Select="0" Value="0"></LimitC1>
+					<LimitC2 Is_Select="0" Value="0"></LimitC2>
+					<LimitValueC1 Is_Select="0" Value="0"></LimitValueC1>
+					<LimitValueC2 Is_Select="0" Value="0"></LimitValueC2>
+				</LimitCondition>
+			</Step4>
+			<Step5 Step_ID="5" Step_Type="4">
+				<Record>
+					<Main>
+						<Time Is_Select="1" Value="2000.0"></Time>
+						<Volt Is_Select="0" Value="0"></Volt>
+						<Curr Is_Select="0" Value="0"></Curr>
+					</Main>
+					<Aux></Aux>
+				</Record>
+				<Limit>
+					<Main>
+						<Curr Is_Select="0" Value="0"></Curr>
+						<Volt Is_Select="0" Value="0"></Volt>
+						<Time Is_Select="1" Value="60000.0"></Time>
+						<Cap Is_Select="0" Value="0"></Cap>
+						<Pow Is_Select="0" Value="0"></Pow>
+						<RI Is_Select="0" Value="0"></RI>
+						<Stop_Curr Is_Select="0" Value="0"></Stop_Curr>
+						<Stop_Volt Is_Select="0" Value="0"></Stop_Volt>
+						<DV Is_Select="0" Value="0"></DV>
+					</Main>
+					<Aux></Aux>
+					<Other>
+						<Start_Step Is_Select="0" Value="0"></Start_Step>
+						<Cycle_Count Is_Select="0" Value="0"></Cycle_Count>
+						<Param1 Is_Select="0" Value="0"></Param1>
+					</Other>
+				</Limit>
+				<Protect>
+					<Main>
+						<Volt>
+							<Upper Is_Select="1" Value="50000.0"></Upper>
+							<Lower Is_Select="1" Value="0.0"></Lower>
+						</Volt>
+						<Curr>
+							<Upper Is_Select="0" Value="0"></Upper>
+							<Lower Is_Select="0" Value="0"></Lower>
+						</Curr>
+						<Delay_Time Is_Select="0" Value="0"></Delay_Time>
+						<Bgfs>
+							<Time Is_Select="0" Value="0"></Time>
+							<Volt Is_Select="0" Value="0"></Volt>
+						</Bgfs>
+						<Plat_Volt1 Is_Select="0" Value="0"></Plat_Volt1>
+						<Plat_Volt2 Is_Select="0" Value="0"></Plat_Volt2>
+						<Plat_Volt3 Is_Select="0" Value="0"></Plat_Volt3>
+						<Step_Delay_Time Is_Select="0" Value="0"></Step_Delay_Time>
+						<Continue_Delay_Time Is_Select="0" Value="0"></Continue_Delay_Time>
+						<MainAux_Delay_Time Is_Select="0" Value="0"></MainAux_Delay_Time>
+					</Main>
+					<Aux></Aux>
+				</Protect>
+				<Sim>
+					<Sim_Mode Value="0"></Sim_Mode>
+					<Sim_TimeUnit Value="0"></Sim_TimeUnit>
+					<Sim_ValueUnit Value="0"></Sim_ValueUnit>
+					<Sim_TimeColume Value="0"></Sim_TimeColume>
+					<Sim_ValueColume Value="0"></Sim_ValueColume>
+					<Sim_Mult Value="0"></Sim_Mult>
+					<Sim_StartRow Value="0"></Sim_StartRow>
+					<Sim_EndRow Value="0"></Sim_EndRow>
+					<Sim_FilePath Value=""></Sim_FilePath>
+				</Sim>
+				<Pulse>
+					<Pulse_Mode Value="0"></Pulse_Mode>
+					<Pulse_VolHi Value="0"></Pulse_VolHi>
+					<Pulse_VolLo Value="0"></Pulse_VolLo>
+					<Pulse_StepArg Value="0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"></Pulse_StepArg>
+				</Pulse>
+				<ControlStepValue ControlType="0"></ControlStepValue>
+				<ATL_Prot>
+					<Volt>
+						<IncRate Is_Select="0" Value="0"></IncRate>
+						<RedRate Is_Select="0" Value="0"></RedRate>
+					</Volt>
+				</ATL_Prot>
+				<LimitCondition>
+					<LimitC1 Is_Select="0" Value="0"></LimitC1>
+					<LimitC2 Is_Select="0" Value="0"></LimitC2>
+					<LimitValueC1 Is_Select="0" Value="0"></LimitValueC1>
+					<LimitValueC2 Is_Select="0" Value="0"></LimitValueC2>
+				</LimitCondition>
+			</Step5>
+			<Step6 Step_ID="6" Step_Type="5">
+				<Record>
+					<Main>
+						<Time Is_Select="1" Value="2000.0"></Time>
+						<Volt Is_Select="0" Value="0"></Volt>
+						<Curr Is_Select="0" Value="0"></Curr>
+					</Main>
+					<Aux></Aux>
+				</Record>
+				<Limit>
+					<Main>
+						<Curr Is_Select="0" Value="0"></Curr>
+						<Volt Is_Select="0" Value="0"></Volt>
+						<Time Is_Select="0" Value="0"></Time>
+						<Cap Is_Select="0" Value="0"></Cap>
+						<Pow Is_Select="0" Value="0"></Pow>
+						<RI Is_Select="0" Value="0"></RI>
+						<Stop_Curr Is_Select="0" Value="0"></Stop_Curr>
+						<Stop_Volt Is_Select="0" Value="0"></Stop_Volt>
+						<DV Is_Select="0" Value="0"></DV>
+					</Main>
+					<Aux></Aux>
+					<Other>
+						<Start_Step Is_Select="1" Value="2"></Start_Step>
+						<Cycle_Count Is_Select="1" Value="100"></Cycle_Count>
+						<Param1 Is_Select="0" Value="0"></Param1>
+					</Other>
+				</Limit>
+				<Protect>
+					<Main>
+						<Volt>
+							<Upper Is_Select="1" Value="50000.0"></Upper>
+							<Lower Is_Select="1" Value="0.0"></Lower>
+						</Volt>
+						<Curr>
+							<Upper Is_Select="0" Value="0"></Upper>
+							<Lower Is_Select="0" Value="0"></Lower>
+						</Curr>
+						<Delay_Time Is_Select="0" Value="0"></Delay_Time>
+						<Bgfs>
+							<Time Is_Select="0" Value="0"></Time>
+							<Volt Is_Select="0" Value="0"></Volt>
+						</Bgfs>
+						<Plat_Volt1 Is_Select="0" Value="0"></Plat_Volt1>
+						<Plat_Volt2 Is_Select="0" Value="0"></Plat_Volt2>
+						<Plat_Volt3 Is_Select="0" Value="0"></Plat_Volt3>
+						<Step_Delay_Time Is_Select="0" Value="0"></Step_Delay_Time>
+						<Continue_Delay_Time Is_Select="0" Value="0"></Continue_Delay_Time>
+						<MainAux_Delay_Time Is_Select="0" Value="0"></MainAux_Delay_Time>
+					</Main>
+					<Aux></Aux>
+				</Protect>
+				<Sim>
+					<Sim_Mode Value="0"></Sim_Mode>
+					<Sim_TimeUnit Value="0"></Sim_TimeUnit>
+					<Sim_ValueUnit Value="0"></Sim_ValueUnit>
+					<Sim_TimeColume Value="0"></Sim_TimeColume>
+					<Sim_ValueColume Value="0"></Sim_ValueColume>
+					<Sim_Mult Value="0"></Sim_Mult>
+					<Sim_StartRow Value="0"></Sim_StartRow>
+					<Sim_EndRow Value="0"></Sim_EndRow>
+					<Sim_FilePath Value=""></Sim_FilePath>
+				</Sim>
+				<Pulse>
+					<Pulse_Mode Value="0"></Pulse_Mode>
+					<Pulse_VolHi Value="0"></Pulse_VolHi>
+					<Pulse_VolLo Value="0"></Pulse_VolLo>
+					<Pulse_StepArg Value="0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"></Pulse_StepArg>
+				</Pulse>
+				<ControlStepValue ControlType="0"></ControlStepValue>
+				<ATL_Prot>
+					<Volt>
+						<IncRate Is_Select="0" Value="0"></IncRate>
+						<RedRate Is_Select="0" Value="0"></RedRate>
+					</Volt>
+				</ATL_Prot>
+				<LimitCondition>
+					<LimitC1 Is_Select="0" Value="0"></LimitC1>
+					<LimitC2 Is_Select="0" Value="0"></LimitC2>
+					<LimitValueC1 Is_Select="0" Value="0"></LimitValueC1>
+					<LimitValueC2 Is_Select="0" Value="0"></LimitValueC2>
+				</LimitCondition>
+			</Step6>
+			<Step7 Step_ID="7" Step_Type="6">
+				<Record>
+					<Main>
+						<Time Is_Select="0" Value="0"></Time>
+						<Volt Is_Select="0" Value="0"></Volt>
+						<Curr Is_Select="0" Value="0"></Curr>
+					</Main>
+					<Aux></Aux>
+				</Record>
+				<Limit>
+					<Main>
+						<Curr Is_Select="0" Value="0"></Curr>
+						<Volt Is_Select="0" Value="0"></Volt>
+						<Time Is_Select="0" Value="0"></Time>
+						<Cap Is_Select="0" Value="0"></Cap>
+						<Pow Is_Select="0" Value="0"></Pow>
+						<RI Is_Select="0" Value="0"></RI>
+						<Stop_Curr Is_Select="0" Value="0"></Stop_Curr>
+						<Stop_Volt Is_Select="0" Value="0"></Stop_Volt>
+						<DV Is_Select="0" Value="0"></DV>
+					</Main>
+					<Aux></Aux>
+					<Other>
+						<Start_Step Is_Select="0" Value="0"></Start_Step>
+						<Cycle_Count Is_Select="0" Value="0"></Cycle_Count>
+						<Param1 Is_Select="0" Value="0"></Param1>
+					</Other>
+				</Limit>
+				<Protect>
+					<Main>
+						<Volt>
+							<Upper Is_Select="0" Value="0"></Upper>
+							<Lower Is_Select="0" Value="0"></Lower>
+						</Volt>
+						<Curr>
+							<Upper Is_Select="0" Value="0"></Upper>
+							<Lower Is_Select="0" Value="0"></Lower>
+						</Curr>
+						<Delay_Time Is_Select="0" Value="0"></Delay_Time>
+						<Bgfs>
+							<Time Is_Select="0" Value="0"></Time>
+							<Volt Is_Select="0" Value="0"></Volt>
+						</Bgfs>
+						<Plat_Volt1 Is_Select="0" Value="0"></Plat_Volt1>
+						<Plat_Volt2 Is_Select="0" Value="0"></Plat_Volt2>
+						<Plat_Volt3 Is_Select="0" Value="0"></Plat_Volt3>
+						<Step_Delay_Time Is_Select="0" Value="0"></Step_Delay_Time>
+						<Continue_Delay_Time Is_Select="0" Value="0"></Continue_Delay_Time>
+						<MainAux_Delay_Time Is_Select="0" Value="0"></MainAux_Delay_Time>
+					</Main>
+					<Aux></Aux>
+				</Protect>
+				<Sim>
+					<Sim_Mode Value="0"></Sim_Mode>
+					<Sim_TimeUnit Value="0"></Sim_TimeUnit>
+					<Sim_ValueUnit Value="0"></Sim_ValueUnit>
+					<Sim_TimeColume Value="0"></Sim_TimeColume>
+					<Sim_ValueColume Value="0"></Sim_ValueColume>
+					<Sim_Mult Value="0"></Sim_Mult>
+					<Sim_StartRow Value="0"></Sim_StartRow>
+					<Sim_EndRow Value="0"></Sim_EndRow>
+					<Sim_FilePath Value=""></Sim_FilePath>
+				</Sim>
+				<Pulse>
+					<Pulse_Mode Value="0"></Pulse_Mode>
+					<Pulse_VolHi Value="0"></Pulse_VolHi>
+					<Pulse_VolLo Value="0"></Pulse_VolLo>
+					<Pulse_StepArg Value="0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"></Pulse_StepArg>
+				</Pulse>
+				<ControlStepValue ControlType="0"></ControlStepValue>
+				<ATL_Prot>
+					<Volt>
+						<IncRate Is_Select="0" Value="0"></IncRate>
+						<RedRate Is_Select="0" Value="0"></RedRate>
+					</Volt>
+				</ATL_Prot>
+				<LimitCondition>
+					<LimitC1 Is_Select="0" Value="0"></LimitC1>
+					<LimitC2 Is_Select="0" Value="0"></LimitC2>
+					<LimitValueC1 Is_Select="0" Value="0"></LimitValueC1>
+					<LimitValueC2 Is_Select="0" Value="0"></LimitValueC2>
+				</LimitCondition>
+			</Step7>
+		</Step_Info>
+		<Protect_Single>
+			<Formation>
+				<type num="0"></type>
+				<CC_Chg>
+					<Chg_Time Is_Select="0" Value="0"></Chg_Time>
+					<Volt_Upper Is_Select="0" Value="0.0000"></Volt_Upper>
+					<Volt_Lower Is_Select="0" Value="0.0000"></Volt_Lower>
+					<Curr_Bias_Prt Is_Select="0" Abs="0.0000" Per="0.0000"></Curr_Bias_Prt>
+					<Volt_Bias_Prt Is_Select="0" Abs="0.0000"></Volt_Bias_Prt>
+					<Volt_Speed Is_Select="0">
+						<Block_By_Volt Is_Select="0" Value1="0000000000000000000000000000000000000000" Value2="0000000000000000000000000000000000000000" Value3="0000000000000000000000000000000000000000"></Block_By_Volt>
+						<Block_By_Cap Is_Select="0" Value1="00000000000000000000000000000000000000000000000000000000" Value2="00000000000000000000000000000000000000000000000000000000" Value3="00000000000000000000000000000000000000000000000000000000"></Block_By_Cap>
+					</Volt_Speed>
+					<Volt_Bias Is_Select="0" Value1="0000000000000000000000000000000000000000" Value2="0000000000000000000000000000000000000000" Value3="0000000000000000000000000000000000000000"></Volt_Bias>
+					<Volt_Drop_Err_Count Is_Select="0" Value="0"></Volt_Drop_Err_Count>
+					<Aux_CCTime Is_Select="0" Value="0"></Aux_CCTime>
+					<Aux_VolUpper Is_Select="0" Value="0.0000"></Aux_VolUpper>
+					<Aux_VolLower Is_Select="0" Value="0.0000"></Aux_VolLower>
+					<Aux_FirstTemUpper Is_Select="0" Value="0.0000"></Aux_FirstTemUpper>
+					<Aux_SecondTemUpper Is_Select="0" Value="0.0000"></Aux_SecondTemUpper>
+					<Aux_VolErrorCount Is_Select="0" Value="0"></Aux_VolErrorCount>
+					<Aux_CVSetting Is_Select="0">
+						<Aux_CVCapSpeedSetting Is_Select="0" Value1="00000000000000000000000000000000000000000000000000000000" Value2="00000000000000000000000000000000000000000000000000000000" Value3="00000000000000000000000000000000000000000000000000000000"></Aux_CVCapSpeedSetting>
+						<Aux_CVSpeedSetting Is_Select="0" Value1="0000000000000000000000000000000000000000" Value2="0000000000000000000000000000000000000000" Value3="0000000000000000000000000000000000000000"></Aux_CVSpeedSetting>
+					</Aux_CVSetting>
+					<Voltage_dips Is_Select="0" Abs="0.0000" Press_Open="0"></Voltage_dips>
+				</CC_Chg>
+				<CV_Chg>
+					<Volt_Bias_Prt Is_Select="0" Abs="0.0000" Per="0.0000"></Volt_Bias_Prt>
+					<Curr_Bias_Prt Is_Select="0" Abs="0.0000"></Curr_Bias_Prt>
+					<Curr_Bias Is_Select="0" Value1="0000000000000000000000000000000000000000" Value2="0000000000000000000000000000000000000000" Value3="0000000000000000000000000000000000000000"></Curr_Bias>
+					<Curr_Rise_Err_Count Is_Select="0" Value="0"></Curr_Rise_Err_Count>
+				</CV_Chg>
+				<CC_DChg>
+					<Curr_Bias_Prt Is_Select="0" Abs="0.0000" Per="0.0000"></Curr_Bias_Prt>
+					<Volt_Bias_Prt Is_Select="0" Abs="0.0000"></Volt_Bias_Prt>
+					<Volt_Lower Is_Select="0" Value="0.0000"></Volt_Lower>
+					<Volt_Bias Is_Select="0" Value1="0000000000000000000000000000000000000000" Value2="0000000000000000000000000000000000000000" Value3="0000000000000000000000000000000000000000"></Volt_Bias>
+					<Volt_Rise_Err_Count Is_Select="0" Value="0"></Volt_Rise_Err_Count>
+					<Volt_Descent Is_Select="0">
+						<Block_By_Volt Is_Select="0" Value1="0000000000000000000000000000000000000000" Value2="0000000000000000000000000000000000000000" Value3="0000000000000000000000000000000000000000"></Block_By_Volt>
+						<Block_By_Cap Is_Select="0" Value1="00000000000000000000000000000000000000000000000000000000" Value2="00000000000000000000000000000000000000000000000000000000" Value3="00000000000000000000000000000000000000000000000000000000"></Block_By_Cap>
+					</Volt_Descent>
+					<Aux_CCDVolUpper Is_Select="0" Value="0.0000"></Aux_CCDVolUpper>
+					<Aux_CCDVolLower Is_Select="0" Value="0.0000"></Aux_CCDVolLower>
+					<Aux_CCDFirstTemUpper Is_Select="0" Value="0.0000"></Aux_CCDFirstTemUpper>
+					<Aux_CCDSecondTemUpper Is_Select="0" Value="0.0000"></Aux_CCDSecondTemUpper>
+					<Aux_CCDVolAscendErrorCount Is_Select="0" Value="0"></Aux_CCDVolAscendErrorCount>
+					<Aux_CCDCVSetting Is_Select="0">
+						<Aux_CCDCapSpeedSetting Is_Select="0" Value1="00000000000000000000000000000000000000000000000000000000" Value2="00000000000000000000000000000000000000000000000000000000" Value3="00000000000000000000000000000000000000000000000000000000"></Aux_CCDCapSpeedSetting>
+						<Aux_CCDCVSpeedSetting Is_Select="0" Value1="0000000000000000000000000000000000000000" Value2="0000000000000000000000000000000000000000" Value3="0000000000000000000000000000000000000000"></Aux_CCDCVSpeedSetting>
+					</Aux_CCDCVSetting>
+				</CC_DChg>
+				<Rest>
+					<Volt_Jump Is_Select="0" Value="0.0000" First_Rest_UnEnable="0"></Volt_Jump>
+					<Curr_Upper Is_Select="0" Value="0.0000"></Curr_Upper>
+					<Curr_Lower Is_Select="0" Value="0.0000"></Curr_Lower>
+					<Vol_Upper Is_Select="0" Value="0.0000"></Vol_Upper>
+					<Vol_Lower Is_Select="0" Value="0.0000"></Vol_Lower>
+					<Vol_Upper_Retest Is_Select="0" Value="0.0000"></Vol_Upper_Retest>
+					<Vol_Lower_Retest Is_Select="0" Value="0.0000"></Vol_Lower_Retest>
+					<Aux_RestVolJumpValue Is_Select="0" Value="0.0000"></Aux_RestVolJumpValue>
+					<Aux_RestTempJumpValue Is_Select="0" Value="0.0000"></Aux_RestTempJumpValue>
+				</Rest>
+				<Whole>
+					<Delay_Time Is_Select="0" Value="0"></Delay_Time>
+					<Volt_Upper Is_Select="0" Value="0.0000"></Volt_Upper>
+					<Volt_Lower Is_Select="0" Value="0.0000"></Volt_Lower>
+					<Volt_Inspect Is_Select="0" Value="0.0000"></Volt_Inspect>
+					<Curr_Upper Is_Select="0" Value="0.0000"></Curr_Upper>
+					<Curr_Lower Is_Select="0" Value="0.0000"></Curr_Lower>
+					<Cap_Mult Is_Select="0" Value="0.0000"></Cap_Mult>
+					<Power_Volt Is_Select="0" Upper="0.0000" Lower="0.0000"></Power_Volt>
+					<Form_Cap_Mult Is_Select="0" Upper="0.0000" Lower="0.0000"></Form_Cap_Mult>
+					<Aux>
+						<Volt_Upper Is_Select="0" Value="0.0000"></Volt_Upper>
+						<Volt_Lower Is_Select="0" Value="0.0000"></Volt_Lower>
+						<Temp_Upper Is_Select="0" Value="0.0000"></Temp_Upper>
+						<Temp_Lower Is_Select="0" Value="0.0000"></Temp_Lower>
+					</Aux>
+					<Pressure_Delay_Time Is_Select="0" Value="0.0000"></Pressure_Delay_Time>
+					<Pressure_Con_Delay_Time Is_Select="0" Value="0.0000"></Pressure_Con_Delay_Time>
+					<Vacuum_Pressure_LeakageRate Is_Select="0" Value="0.0000"></Vacuum_Pressure_LeakageRate>
+					<Vacuum_Pressure_LeakageRate_Time Is_Select="0" Value="0.0000"></Vacuum_Pressure_LeakageRate_Time>
+					<Vacuum_Pressure Is_Select="0" Value="0.0000"></Vacuum_Pressure>
+					<Vacuum_Pressure_Time Is_Select="0" Value="0.0000"></Vacuum_Pressure_Time>
+					<Release_Pressure_LeakageRate Is_Select="0" Value="0.0000"></Release_Pressure_LeakageRate>
+					<Release_Pressure_LeakageRate_Time Is_Select="0" Value="0.0000"></Release_Pressure_LeakageRate_Time>
+					<Release_Vacuum_Pressure Is_Select="0" Value="0.0000"></Release_Vacuum_Pressure>
+					<Release_Vacuum_Pressure_Time Is_Select="0" Value="0.0000"></Release_Vacuum_Pressure_Time>
+					<Begin_Hold_After_A_Time Is_Select="0" Value="0.0000"></Begin_Hold_After_A_Time>
+					<PressureUpper Is_Select="0" Value="0.0000"></PressureUpper>
+					<PressureLower Is_Select="0" Value="0.0000"></PressureLower>
+					<Record_Condition>
+						<As_Main_Chl Is_Select="0"></As_Main_Chl>
+						<Main_Chl>
+							<Time_Interval Is_Select="0" Value="0"></Time_Interval>
+							<Volt_Interval Is_Select="0" Value="0.0000"></Volt_Interval>
+							<Curr_Interval Is_Select="0" Value="0.0000"></Curr_Interval>
+						</Main_Chl>
+						<Aux_Chl>
+							<Time_Interval Is_Select="0" Value="0"></Time_Interval>
+							<Volt_Interval Is_Select="0" Value="0.0000"></Volt_Interval>
+							<Temp_Interval Is_Select="0" Value="0.0000"></Temp_Interval>
+						</Aux_Chl>
+					</Record_Condition>
+					<Abnormal_Templ_Time Is_Select="0" Abnormal_Time_Interval="0.0000" Abnormal_Count="0" Press_Open="0"></Abnormal_Templ_Time>
+					<DF_StopRecode_Time Is_Select="0" Value="0.0000"></DF_StopRecode_Time>
+					<DF_ProtectRecode_Time Is_Select="0" Value="0.0000"></DF_ProtectRecode_Time>
+				</Whole>
+				<Safe>
+					<Volt_Upper Is_Select="0"></Volt_Upper>
+					<Volt_Lower Is_Select="0"></Volt_Lower>
+					<End_Volt Is_Select="0"></End_Volt>
+					<Main_Volt_Upper Is_Select="0" Value="0.0000"></Main_Volt_Upper>
+					<Main_Volt_Lower Is_Select="0" Value="0.0000"></Main_Volt_Lower>
+					<Aux_Volt_Upper Is_Select="0" Value="0.0000"></Aux_Volt_Upper>
+					<Aux_Volt_Lower Is_Select="0" Value="0.0000"></Aux_Volt_Lower>
+					<Aux_Tmp_Upper Is_Select="0" Value="0.0000"></Aux_Tmp_Upper>
+					<Aux_Tmp_Lower Is_Select="0" Value="0.0000"></Aux_Tmp_Lower>
+				</Safe>
+				<Temperature>
+					<Tmp_Upper1 Is_Select="0" Value="0.0000"></Tmp_Upper1>
+					<Tmp_Lower1 Is_Select="0" Value="0.0000"></Tmp_Lower1>
+					<Tmp_Upper2 Is_Select="0" Value="0.0000"></Tmp_Upper2>
+					<Tmp_Lower2 Is_Select="0" Value="0.0000"></Tmp_Lower2>
+					<Tmp_Upper3 Is_Select="0" Value="0.0000"></Tmp_Upper3>
+					<Tmp_Lower3 Is_Select="0" Value="0.0000"></Tmp_Lower3>
+				</Temperature>
+			</Formation>
+			<Cap_Grading>
+				<type num="0"></type>
+				<CC_Chg>
+					<Chg_Time Is_Select="0" Value="0"></Chg_Time>
+					<Volt_Upper Is_Select="0" Value="0.0000"></Volt_Upper>
+					<Volt_Lower Is_Select="0" Value="0.0000"></Volt_Lower>
+					<Curr_Bias_Prt Is_Select="0" Abs="0.0000" Per="0.0000"></Curr_Bias_Prt>
+					<Volt_Bias_Prt Is_Select="0" Abs="0.0000"></Volt_Bias_Prt>
+					<Volt_Speed Is_Select="0">
+						<Block_By_Volt Is_Select="0" Value1="0000000000000000000000000000000000000000" Value2="0000000000000000000000000000000000000000" Value3="0000000000000000000000000000000000000000"></Block_By_Volt>
+						<Block_By_Cap Is_Select="0" Value1="00000000000000000000000000000000000000000000000000000000" Value2="00000000000000000000000000000000000000000000000000000000" Value3="00000000000000000000000000000000000000000000000000000000"></Block_By_Cap>
+					</Volt_Speed>
+					<Volt_Bias Is_Select="0" Value1="0000000000000000000000000000000000000000" Value2="0000000000000000000000000000000000000000" Value3="0000000000000000000000000000000000000000"></Volt_Bias>
+					<Volt_Drop_Err_Count Is_Select="0" Value="0"></Volt_Drop_Err_Count>
+					<Aux_CCTime Is_Select="0" Value="0"></Aux_CCTime>
+					<Aux_VolUpper Is_Select="0" Value="0.0000"></Aux_VolUpper>
+					<Aux_VolLower Is_Select="0" Value="0.0000"></Aux_VolLower>
+					<Aux_FirstTemUpper Is_Select="0" Value="0.0000"></Aux_FirstTemUpper>
+					<Aux_SecondTemUpper Is_Select="0" Value="0.0000"></Aux_SecondTemUpper>
+					<Aux_VolErrorCount Is_Select="0" Value="0"></Aux_VolErrorCount>
+					<Aux_CVSetting Is_Select="0">
+						<Aux_CVCapSpeedSetting Is_Select="0" Value1="00000000000000000000000000000000000000000000000000000000" Value2="00000000000000000000000000000000000000000000000000000000" Value3="00000000000000000000000000000000000000000000000000000000"></Aux_CVCapSpeedSetting>
+						<Aux_CVSpeedSetting Is_Select="0" Value1="0000000000000000000000000000000000000000" Value2="0000000000000000000000000000000000000000" Value3="0000000000000000000000000000000000000000"></Aux_CVSpeedSetting>
+					</Aux_CVSetting>
+					<Voltage_dips Is_Select="0" Abs="0.0000" Press_Open="0"></Voltage_dips>
+				</CC_Chg>
+				<CV_Chg>
+					<Volt_Bias_Prt Is_Select="0" Abs="0.0000" Per="0.0000"></Volt_Bias_Prt>
+					<Curr_Bias_Prt Is_Select="0" Abs="0.0000"></Curr_Bias_Prt>
+					<Curr_Bias Is_Select="0" Value1="0000000000000000000000000000000000000000" Value2="0000000000000000000000000000000000000000" Value3="0000000000000000000000000000000000000000"></Curr_Bias>
+					<Curr_Rise_Err_Count Is_Select="0" Value="0"></Curr_Rise_Err_Count>
+				</CV_Chg>
+				<CC_DChg>
+					<Curr_Bias_Prt Is_Select="0" Abs="0.0000" Per="0.0000"></Curr_Bias_Prt>
+					<Volt_Bias_Prt Is_Select="0" Abs="0.0000"></Volt_Bias_Prt>
+					<Volt_Lower Is_Select="0" Value="0.0000"></Volt_Lower>
+					<Volt_Bias Is_Select="0" Value1="0000000000000000000000000000000000000000" Value2="0000000000000000000000000000000000000000" Value3="0000000000000000000000000000000000000000"></Volt_Bias>
+					<Volt_Rise_Err_Count Is_Select="0" Value="0"></Volt_Rise_Err_Count>
+					<Volt_Descent Is_Select="0">
+						<Block_By_Volt Is_Select="0" Value1="0000000000000000000000000000000000000000" Value2="0000000000000000000000000000000000000000" Value3="0000000000000000000000000000000000000000"></Block_By_Volt>
+						<Block_By_Cap Is_Select="0" Value1="00000000000000000000000000000000000000000000000000000000" Value2="00000000000000000000000000000000000000000000000000000000" Value3="00000000000000000000000000000000000000000000000000000000"></Block_By_Cap>
+					</Volt_Descent>
+					<Aux_CCDVolUpper Is_Select="0" Value="0.0000"></Aux_CCDVolUpper>
+					<Aux_CCDVolLower Is_Select="0" Value="0.0000"></Aux_CCDVolLower>
+					<Aux_CCDFirstTemUpper Is_Select="0" Value="0.0000"></Aux_CCDFirstTemUpper>
+					<Aux_CCDSecondTemUpper Is_Select="0" Value="0.0000"></Aux_CCDSecondTemUpper>
+					<Aux_CCDVolAscendErrorCount Is_Select="0" Value="0"></Aux_CCDVolAscendErrorCount>
+					<Aux_CCDCVSetting Is_Select="0">
+						<Aux_CCDCapSpeedSetting Is_Select="0" Value1="00000000000000000000000000000000000000000000000000000000" Value2="00000000000000000000000000000000000000000000000000000000" Value3="00000000000000000000000000000000000000000000000000000000"></Aux_CCDCapSpeedSetting>
+						<Aux_CCDCVSpeedSetting Is_Select="0" Value1="0000000000000000000000000000000000000000" Value2="0000000000000000000000000000000000000000" Value3="0000000000000000000000000000000000000000"></Aux_CCDCVSpeedSetting>
+					</Aux_CCDCVSetting>
+				</CC_DChg>
+				<Rest>
+					<Volt_Jump Is_Select="0" Value="0.0000" First_Rest_UnEnable="0"></Volt_Jump>
+					<Curr_Upper Is_Select="0" Value="0.0000"></Curr_Upper>
+					<Curr_Lower Is_Select="0" Value="0.0000"></Curr_Lower>
+					<Vol_Upper Is_Select="0" Value="0.0000"></Vol_Upper>
+					<Vol_Lower Is_Select="0" Value="0.0000"></Vol_Lower>
+					<Vol_Upper_Retest Is_Select="0" Value="0.0000"></Vol_Upper_Retest>
+					<Vol_Lower_Retest Is_Select="0" Value="0.0000"></Vol_Lower_Retest>
+					<Aux_RestVolJumpValue Is_Select="0" Value="0.0000"></Aux_RestVolJumpValue>
+					<Aux_RestTempJumpValue Is_Select="0" Value="0.0000"></Aux_RestTempJumpValue>
+				</Rest>
+				<Whole>
+					<Delay_Time Is_Select="0" Value="0"></Delay_Time>
+					<Volt_Upper Is_Select="0" Value="0.0000"></Volt_Upper>
+					<Volt_Lower Is_Select="0" Value="0.0000"></Volt_Lower>
+					<Volt_Inspect Is_Select="0" Value="0.0000"></Volt_Inspect>
+					<Curr_Upper Is_Select="0" Value="0.0000"></Curr_Upper>
+					<Curr_Lower Is_Select="0" Value="0.0000"></Curr_Lower>
+					<Cap_Mult Is_Select="0" Value="0.0000"></Cap_Mult>
+					<Power_Volt Is_Select="0" Upper="0.0000" Lower="0.0000"></Power_Volt>
+					<Form_Cap_Mult Is_Select="0" Upper="0.0000" Lower="0.0000"></Form_Cap_Mult>
+					<Aux>
+						<Volt_Upper Is_Select="0" Value="0.0000"></Volt_Upper>
+						<Volt_Lower Is_Select="0" Value="0.0000"></Volt_Lower>
+						<Temp_Upper Is_Select="0" Value="0.0000"></Temp_Upper>
+						<Temp_Lower Is_Select="0" Value="0.0000"></Temp_Lower>
+					</Aux>
+					<Pressure_Delay_Time Is_Select="0" Value="0.0000"></Pressure_Delay_Time>
+					<Pressure_Con_Delay_Time Is_Select="0" Value="0.0000"></Pressure_Con_Delay_Time>
+					<Vacuum_Pressure_LeakageRate Is_Select="0" Value="0.0000"></Vacuum_Pressure_LeakageRate>
+					<Vacuum_Pressure_LeakageRate_Time Is_Select="0" Value="0.0000"></Vacuum_Pressure_LeakageRate_Time>
+					<Vacuum_Pressure Is_Select="0" Value="0.0000"></Vacuum_Pressure>
+					<Vacuum_Pressure_Time Is_Select="0" Value="0.0000"></Vacuum_Pressure_Time>
+					<Release_Pressure_LeakageRate Is_Select="0" Value="0.0000"></Release_Pressure_LeakageRate>
+					<Release_Pressure_LeakageRate_Time Is_Select="0" Value="0.0000"></Release_Pressure_LeakageRate_Time>
+					<Release_Vacuum_Pressure Is_Select="0" Value="0.0000"></Release_Vacuum_Pressure>
+					<Release_Vacuum_Pressure_Time Is_Select="0" Value="0.0000"></Release_Vacuum_Pressure_Time>
+					<Begin_Hold_After_A_Time Is_Select="0" Value="0.0000"></Begin_Hold_After_A_Time>
+					<PressureUpper Is_Select="0" Value="0.0000"></PressureUpper>
+					<PressureLower Is_Select="0" Value="0.0000"></PressureLower>
+					<Record_Condition>
+						<As_Main_Chl Is_Select="0"></As_Main_Chl>
+						<Main_Chl>
+							<Time_Interval Is_Select="0" Value="0"></Time_Interval>
+							<Volt_Interval Is_Select="0" Value="0.0000"></Volt_Interval>
+							<Curr_Interval Is_Select="0" Value="0.0000"></Curr_Interval>
+						</Main_Chl>
+						<Aux_Chl>
+							<Time_Interval Is_Select="0" Value="0"></Time_Interval>
+							<Volt_Interval Is_Select="0" Value="0.0000"></Volt_Interval>
+							<Temp_Interval Is_Select="0" Value="0.0000"></Temp_Interval>
+						</Aux_Chl>
+					</Record_Condition>
+					<Abnormal_Templ_Time Is_Select="0" Abnormal_Time_Interval="0.0000" Abnormal_Count="0" Press_Open="0"></Abnormal_Templ_Time>
+					<DF_StopRecode_Time Is_Select="0" Value="0.0000"></DF_StopRecode_Time>
+					<DF_ProtectRecode_Time Is_Select="0" Value="0.0000"></DF_ProtectRecode_Time>
+				</Whole>
+				<Safe>
+					<Volt_Upper Is_Select="0"></Volt_Upper>
+					<Volt_Lower Is_Select="0"></Volt_Lower>
+					<End_Volt Is_Select="0"></End_Volt>
+					<Main_Volt_Upper Is_Select="0" Value="0.0000"></Main_Volt_Upper>
+					<Main_Volt_Lower Is_Select="0" Value="0.0000"></Main_Volt_Lower>
+					<Aux_Volt_Upper Is_Select="0" Value="0.0000"></Aux_Volt_Upper>
+					<Aux_Volt_Lower Is_Select="0" Value="0.0000"></Aux_Volt_Lower>
+					<Aux_Tmp_Upper Is_Select="0" Value="0.0000"></Aux_Tmp_Upper>
+					<Aux_Tmp_Lower Is_Select="0" Value="0.0000"></Aux_Tmp_Lower>
+				</Safe>
+				<Temperature>
+					<Tmp_Upper1 Is_Select="0" Value="0.0000"></Tmp_Upper1>
+					<Tmp_Lower1 Is_Select="0" Value="0.0000"></Tmp_Lower1>
+					<Tmp_Upper2 Is_Select="0" Value="0.0000"></Tmp_Upper2>
+					<Tmp_Lower2 Is_Select="0" Value="0.0000"></Tmp_Lower2>
+					<Tmp_Upper3 Is_Select="0" Value="0.0000"></Tmp_Upper3>
+					<Tmp_Lower3 Is_Select="0" Value="0.0000"></Tmp_Lower3>
+				</Temperature>
+			</Cap_Grading>
+		</Protect_Single>
+	</config>
+</root>
